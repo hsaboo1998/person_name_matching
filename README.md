@@ -9,7 +9,7 @@ This repository is solution for person name matching using machine learning mode
     import pickle
     from helper import get_results
     #read data
-    df = pd.read_excel('data/Mathwizzathon_Entity_Matching_Dataset.xlsx')
+    df = pd.read_excel('data/Baseline_Entity_Matching_Dataset.xlsx')
     # load model
     with open('xgb_name_matcher.pkl', 'rb') as f:
         xgb_name_matcher = pickle.load(f)
